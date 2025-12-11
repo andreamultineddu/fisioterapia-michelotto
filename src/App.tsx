@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -8,7 +8,7 @@ import PancafitPage from './pages/Pancafit';
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="min-h-screen bg-gray-100 flex flex-col justify-between">
                 <div className="w-full flex flex-col items-center">
                     <Navbar />
@@ -23,7 +23,7 @@ function App() {
                                 path="/pancafit"
                                 element={<PancafitPage />}
                             />
-                            <Route path="*" element={<RedirectToHome />} />
+                            <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
                     </main>
                 </div>
@@ -33,9 +33,6 @@ function App() {
     );
 }
 
-function RedirectToHome() {
-    window.location.href = '/fisioterapia-michelotto/';
-    return null;
-}
+// RedirectToHome removed: using React Router `Navigate` and `basename` instead
 
 export default App;

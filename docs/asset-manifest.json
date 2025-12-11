@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fisioterapia-michelotto/static/css/main.b04e6bf3.css",
-    "main.js": "/fisioterapia-michelotto/static/js/main.8442fa39.js",
+    "main.js": "/fisioterapia-michelotto/static/js/main.256d2c94.js",
     "index.html": "/fisioterapia-michelotto/index.html",
     "main.b04e6bf3.css.map": "/fisioterapia-michelotto/static/css/main.b04e6bf3.css.map",
-    "main.8442fa39.js.map": "/fisioterapia-michelotto/static/js/main.8442fa39.js.map"
+    "main.256d2c94.js.map": "/fisioterapia-michelotto/static/js/main.256d2c94.js.map"
   },
   "entrypoints": [
     "static/css/main.b04e6bf3.css",
-    "static/js/main.8442fa39.js"
+    "static/js/main.256d2c94.js"
   ]
 }
