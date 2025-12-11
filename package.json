@@ -2,6 +2,7 @@
   "name": "fisioterapia",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://andreamultineddu.github.io/fisioterapia-michelotto/",
   "dependencies": {
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.42",
@@ -17,7 +18,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
