@@ -6,7 +6,7 @@ const Home: React.FC = () => {
             <div
                 className="w-full h-64 md:h-80 lg:h-96 xl:h-[28rem] bg-cover"
                 style={{
-                    backgroundImage: `url('/images/background.jpg')`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/images/background.jpg)`,
                     backgroundPosition: 'center 75%',
                 }}
                 role="img"
