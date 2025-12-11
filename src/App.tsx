@@ -34,7 +34,7 @@ function App() {
 }
 
 function RedirectToHome() {
-    window.location.href = '/';
+    window.location.href = '/fisioterapia-michelotto/';
     return null;
 }
 
