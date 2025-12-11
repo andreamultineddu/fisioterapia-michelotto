@@ -13,12 +13,12 @@ const Home: React.FC = () => {
                 aria-label="banner informativo"
             />
 
-            <div className="w-full flex flex-col justify-center items-center gap-8 px-6 md:px-20 pb-12">
+            <div className="w-full flex flex-col justify-center items-center gap-12 px-6 md:px-20 pb-12">
                 <h2 className="text-2xl md:text-3xl text-center font-semibold">
                     Davide Michelotto — Fisioterapia
                 </h2>
 
-                <div className="max-w-4xl text-justify text-base md:text-lg leading-relaxed">
+                <div className="w-full max-w-4xl flex flex-col gap-6 text-justify text-base md:text-lg leading-relaxed">
                     <p>
                         Il corpo è un sistema straordinario in quanto registra
                         ogni movimento, ogni abitudine, ogni tensione ed ogni
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
                         al dolore.
                     </p>
 
-                    <p className="mt-4">
+                    <p>
                         Il mio lavoro nasce da qui: dall’ascolto del corpo e
                         dall’osservazione di ciò che esso racconta. Sono
                         Massoterapista MCB specializzato in riequilibrio
@@ -38,14 +38,18 @@ const Home: React.FC = () => {
                         restituendo armonia al movimento.
                     </p>
 
-                    <p className="mt-4">
+                    <p>
                         Il metodo che utilizzo unisce competenza manuale,
-                        approccio posturale e capacità di osservazione. Ogni
-                        persona è unica e ogni corpo esprime il proprio
-                        linguaggio.
+                        approccio posturale e capacità di osservazione.
                     </p>
+                </div>
+                
+                <div className="w-full max-w-4xl flex flex-col gap-6 text-justify text-base md:text-lg leading-relaxed">
+                    <h2 className="text-xl md:text-2xl text-center font-semibold">
+                        Ogni persona è unica e ogni corpo esprime il proprio linguaggio
+                    </h2>
 
-                    <div className="mt-6">
+                    <div>
                         <h3 className="font-medium">
                             Con la Massoterapia agisco su:
                         </h3>
@@ -57,7 +61,7 @@ const Home: React.FC = () => {
                         </ul>
                     </div>
 
-                    <div className="mt-6">
+                    <div>
                         <h3 className="font-medium">
                             Con Pancafit ® Raggi Method ® intervengo su:
                         </h3>
@@ -73,7 +77,7 @@ const Home: React.FC = () => {
                         </ul>
                     </div>
 
-                    <p className="mt-6">
+                    <p>
                         La sinergia di questi due strumenti crea un percorso
                         efficace, profondo e duraturo.
                     </p>

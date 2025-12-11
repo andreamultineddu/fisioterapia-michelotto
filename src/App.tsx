@@ -1,4 +1,9 @@
-import { Route, BrowserRouter as Router, Routes, Navigate } from 'react-router-dom';
+import {
+    Route,
+    BrowserRouter as Router,
+    Routes,
+    Navigate,
+} from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -23,7 +28,10 @@ function App() {
                                 path="/pancafit"
                                 element={<PancafitPage />}
                             />
-                            <Route path="*" element={<Navigate to="/" replace />} />
+                            <Route
+                                path="*"
+                                element={<Navigate to="/" replace />}
+                            />
                         </Routes>
                     </main>
                 </div>

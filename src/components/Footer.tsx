@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
 
     const footerLinks = {
         navigazione: [
-        { path: '/', label: 'Home' },
-        { path: '/massoterapia', label: 'Massoterapia' },
-        { path: '/pancafit', label: 'Pancafit' },
+            { path: '/', label: 'Home' },
+            { path: '/massoterapia', label: 'Massoterapia' },
+            { path: '/pancafit', label: 'Pancafit' },
         ],
         contatti: [
             {
