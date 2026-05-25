@@ -1,0 +1,33 @@
+/* Jost — corpo testo */
+@font-face {
+	font-family: 'Jost';
+	src: url('./Jost/Jost-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Jost';
+	src: url('./Jost/Jost-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Cormorant Garamond — titoli */
+@font-face {
+	font-family: 'Cormorant Garamond';
+	src: url('./Cormorant_Garamond/CormorantGaramond-VariableFont_wght.ttf') format('truetype');
+	font-weight: 300 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant Garamond';
+	src: url('./Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: 300 700;
+	font-style: italic;
+	font-display: swap;
+}
